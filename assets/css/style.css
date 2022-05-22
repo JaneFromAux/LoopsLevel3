@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 1.3rem;
+}
+
+#output {
+    color: lime;
+    font-size: 2.2rem;
+    margin: 2vh auto 4vh auto;
+}
+
+/************************* 
+        Level 3_4 
+*************************/
+section {
+    width: 33vw;
+    margin: 0 auto 4vh 4vw;
+}
+
+p {
+    margin: 2vh auto;
+}
+
+label {
+    display: block;
+}
+
+[type="button"] {
+    padding: 2px 5px;
+    font-weight: bold;
+}

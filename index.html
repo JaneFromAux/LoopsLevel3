@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops Level 3</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <input type="text" name="" id="inputLoop">
+        <input type="button" value="Loop me" onclick="loop()">
+    </form>
+    <h3 id="output"></h3>
+
+    <section>
+        <h2>Gib mir eine Zahl</h2>
+        <p>Ich werde ALLE Zahlen bis zu dieser Zahl addieren, wenn sie durch die ausgewählten Zahlen teilbar sind! </p>
+        <form action="">
+            <label for="">Maximale Zahl</label>
+            <input type="number" name="" id="maxNum">
+            <label for="">Erste Zahl</label>
+            <select name="" id="number1">
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+                <option value=6>6</option>
+                <option value=7>7</option>
+                <option value=8>8</option>
+                <option value=9>9</option>
+            </select>
+            <label for="">Zweite Zahl</label>
+            <select name="" id="number2">
+                <option class="inline" value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+                <option value=6>6</option>
+                <option value=7>7</option>
+                <option value=8>8</option>
+                <option value=9>9</option>
+            </select>
+            <input type="button" value="Count Me" onclick="countOnMe()">
+        </form>
+        <h5 id="result"></h5>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
